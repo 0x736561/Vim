@@ -48,8 +48,8 @@ inoremap <c-b> <Esc>:Lex<cr>
 nnoremap <c-b> <Esc>:Lex<cr>
 inoremap <c-t> <Esc>:tabnew<cr> 
 nnoremap <c-t> <Esc>:tabnew<cr>
-nnoremap <c-w> <Esc>:tabclose<cr>
-inoremap <c-w> <Esc>:tabclose<cr> 
+nnoremap <c-c> <Esc>:tabclose<cr>
+inoremap <c-c> <Esc>:tabclose<cr> 
 nnoremap <c-q> <Esc>:q<cr>
 inoremap <c-q> <Esc>:q<cr> 
 nnoremap <c-s> <Esc>:w<cr>

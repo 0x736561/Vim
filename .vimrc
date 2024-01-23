@@ -1,4 +1,3 @@
-
 " aparência "
 colorscheme onedark
 set termguicolors
@@ -43,7 +42,6 @@ augroup ProjectDrawer
   autocmd!
   autocmd VimEnter * :Lex
 augroup END
-
 
 " teclas de atalho "
 inoremap <c-b> <Esc>:Lex<cr> 

@@ -1,0 +1,1705 @@
+# Este arquivo viminfo foi gerado pelo Vim 9.1.
+# Você pode editá-lo se for cuidadoso!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' quando este arquivo foi escrito
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último padrão de busca :
+~MSle0~/lite
+
+# Último padrão de busca  de substituição:
+~MSle0&light-
+
+# Última string de substituição:
+$
+
+# Histórico de linha de comando (mais recente primeiro):
+:so%
+|2,0,1706014926,,"so%"
+:w
+|2,0,1706014924,,"w"
+:tabclose
+|2,0,1706014543,,"tabclose"
+:Lex
+|2,0,1706014464,,"Lex"
+:q
+|2,0,1706014459,,"q"
+:q!
+|2,0,1705985132,,"q!"
+:wq!
+|2,0,1705985050,,"wq!"
+:Vexplore
+|2,0,1705985040,,"Vexplore"
+:set tab
+|2,0,1705985031,,"set tab"
+:set tabline
+|2,0,1705985023,,"set tabline"
+:tabs
+|2,0,1705985012,,"tabs"
+:tabnew
+|2,0,1705984783,,"tabnew"
+:Explore
+|2,0,1705984742,,"Explore"
+:tn
+|2,0,1705984733,,"tn"
+:NetrwSettings
+|2,0,1705984520,,"NetrwSettings"
+:Ntree
+|2,0,1705984461,,"Ntree"
+:vs
+|2,0,1705984405,,"vs"
+:tab
+|2,0,1705984377,,"tab"
+:nt
+|2,0,1705984371,,"nt"
+:! lua main.lua
+|2,0,1705984069,,"! lua main.lua"
+:! lua
+|2,0,1705984058,,"! lua"
+:.!lua
+|2,0,1705984050,,".!lua"
+:'<,'>!lua
+|2,0,1705984034,,"'<,'>!lua"
+:wq
+|2,0,1705982973,,"wq"
+:set termguicolors
+|2,0,1705982966,,"set termguicolors"
+:.!imv
+|2,0,1705974549,,".!imv"
+:! imv
+|2,0,1705974541,,"! imv"
+:W
+|2,0,1705936840,,"W"
+:! rm content/teste.md
+|2,0,1705936149,,"! rm content/teste.md"
+:! hugo new content posts/teste.md
+|2,0,1705936129,,"! hugo new content posts/teste.md"
+:! hugo new content bandcamp.md
+|2,0,1705936078,,"! hugo new content bandcamp.md"
+:open
+|2,0,1705936068,,"open"
+:! mkdir src
+|2,0,1705897766,,"! mkdir src"
+:'<,'>s/light-/dark-/g
+|2,0,1705934437,,"'<,'>s/light-/dark-/g"
+:open search.md
+|2,0,1705933438,,"open search.md"
+:open config.yml
+|2,0,1705933109,,"open config.yml"
+:winsize 20
+|2,0,1705545555,,"winsize 20"
+:qq
+|2,0,1705545378,,"qq"
+:set g:netrw_liststyle = 3
+|2,0,1705544911,,"set g:netrw_liststyle = 3"
+:PluginSearch YouCompleteMe
+|2,0,1705544038,,"PluginSearch YouCompleteMe"
+:PluginInstall YouCompleteMe
+|2,0,1705544006,,"PluginInstall YouCompleteMe"
+:set omnifunc=lua
+|2,0,1705543115,,"set omnifunc=lua"
+:set omnifunc=luacomplete
+|2,0,1705543098,,"set omnifunc=luacomplete"
+:'<,'>s/primary//g
+|2,0,1705353774,,"'<,'>s/primary//g"
+:'<,'>s/Music/\/Music/g
+|2,0,1705353715,,"'<,'>s/Music/\\/Music/g"
+:.!
+|2,0,1705353675,,".!"
+:s
+|2,0,1705353658,,"s"
+:'<,'>s/\/storage\/emulated\/0\///g
+|2,0,1705353520,,"'<,'>s/\\/storage\\/emulated\\/0\\///g"
+:'<,'>s/\/storage\/emulated\/0//g
+|2,0,1705353504,,"'<,'>s/\\/storage\\/emulated\\/0//g"
+:'<,'>s/\/M/M/g
+|2,0,1705353476,,"'<,'>s/\\/M/M/g"
+
+# Histórico de expressões de busca (mais recente primeiro):
+? @$
+|2,1,1706014883,,"@$"
+? = $
+|2,1,1705984520,,"= $"
+??\a
+|2,1,1705984446,63,"\\a"
+?/lite
+|2,1,1705952164,47,"lite"
+?/light
+|2,1,1705934449,47,"light"
+? light-
+|2,1,1705934437,,"light-"
+?/light-
+|2,1,1705934389,47,"light-"
+?/entr
+|2,1,1705899818,47,"entr"
+?/bluema
+|2,1,1705511593,47,"bluema"
+?/code
+|2,1,1705511583,47,"code"
+?/udi
+|2,1,1705511481,47,"udi"
+?/google
+|2,1,1705511258,47,"google"
+? primary
+|2,1,1705353774,,"primary"
+? Music
+|2,1,1705353715,,"Music"
+? \<m4a\>
+|2,1,1705353685,,"\\<m4a\\>"
+? \<0\>
+|2,1,1705353649,,"\\<0\\>"
+? \/storage\/emulated\/0\/
+|2,1,1705353520,,"\\/storage\\/emulated\\/0\\/"
+? \/storage\/emulated\/0
+|2,1,1705353504,,"\\/storage\\/emulated\\/0"
+? \/M
+|2,1,1705353476,,"\\/M"
+?/Me
+|2,1,1705353401,47,"Me"
+?/Me and
+|2,1,1705353399,47,"Me and"
+?/me and
+|2,1,1705353396,47,"me and"
+?/cod
+|2,1,1705346636,47,"cod"
+?/status
+|2,1,1705343247,47,"status"
+??w
+|2,1,1705331487,63,"w"
+?/libre
+|2,1,1705246773,47,"libre"
+?/focus
+|2,1,1705155490,47,"focus"
+?/gree
+|2,1,1705155422,47,"gree"
+? "
+|2,1,1704815787,,"\""
+? corta
+|2,1,1704731929,,"corta"
+?/corta
+|2,1,1704731850,47,"corta"
+?/pass
+|2,1,1704643027,47,"pass"
+?/java
+|2,1,1704553709,47,"java"
+
+# Histórico de expressões (mais recente primeiro):
+
+# Histórico de linha de entrada (mais recente primeiro):
+@[{y(es)},n(o),a(ll),q(uit)] n
+|2,3,1705984245,,"[{y(es)},n(o),a(ll),q(uit)] n"
+
+# Histórico de linha de debug (mais recente primeiro):
+
+# Registradores:
+"0	LINE	0
+	nnoremap <c-q> <Esc>:q<cr>
+	inoremap <c-q> <Esc>:q<cr> 
+|3,0,0,1,2,0,1706014908,"nnoremap <c-q> <Esc>:q<cr>","inoremap <c-q> <Esc>:q<cr> "
+"1	LINE	0
+	
+|3,0,1,1,1,0,1706014883,""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1706014883,""
+"3	LINE	0
+	nnoremap <c-t> <Esc>:tabnew<cr>
+|3,0,3,1,1,0,1706014869,"nnoremap <c-t> <Esc>:tabnew<cr>"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1706014848,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1706014848,""
+"6	LINE	0
+	
+|3,0,6,1,1,0,1706014845,""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1706014845,""
+"8	LINE	0
+	
+|3,0,8,1,1,0,1706014778,""
+"9	LINE	0
+	
+|3,0,9,1,1,0,1706014778,""
+""-	CHAR	0
+	q
+|3,1,36,0,1,0,1706014917,"q"
+
+# Marcas nos arquivos:
+'0  58  21  ~/.vimrc
+|4,48,58,21,1706014938,"~/.vimrc"
+'1  1  0  ~/.vimrc
+|4,49,1,0,1706014847,"~/.vimrc"
+'2  1  0  ~/.vimrc
+|4,50,1,0,1706014847,"~/.vimrc"
+'3  55  9  ~/.vimrc
+|4,51,55,9,1706014843,"~/.vimrc"
+'4  55  9  ~/.vimrc
+|4,52,55,9,1706014843,"~/.vimrc"
+'5  54  9  ~/.vimrc
+|4,53,54,9,1706014843,"~/.vimrc"
+'6  54  9  ~/.vimrc
+|4,54,54,9,1706014843,"~/.vimrc"
+'7  29  0  ~/prog/lua/readme.md
+|4,55,29,0,1706014773,"~/prog/lua/readme.md"
+'8  55  30  ~/.vimrc
+|4,56,55,30,1706014612,"~/.vimrc"
+'9  55  30  ~/.vimrc
+|4,57,55,30,1706014612,"~/.vimrc"
+
+# Lista de saltos (mais recente primeiro):
+-'  58  21  ~/.vimrc
+|4,39,58,21,1706014938,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1706014853,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1706014847,"~/.vimrc"
+-'  55  9  ~/.vimrc
+|4,39,55,9,1706014843,"~/.vimrc"
+-'  54  9  ~/.vimrc
+|4,39,54,9,1706014843,"~/.vimrc"
+-'  54  9  ~/.vimrc
+|4,39,54,9,1706014843,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1706014781,"~/.vimrc"
+-'  29  0  ~/prog/lua/readme.md
+|4,39,29,0,1706014773,"~/prog/lua/readme.md"
+-'  29  0  ~/prog/lua/readme.md
+|4,39,29,0,1706014773,"~/prog/lua/readme.md"
+-'  29  0  ~/prog/lua/readme.md
+|4,39,29,0,1706014773,"~/prog/lua/readme.md"
+-'  29  0  ~/prog/lua/readme.md
+|4,39,29,0,1706014773,"~/prog/lua/readme.md"
+-'  29  0  ~/prog/lua/readme.md
+|4,39,29,0,1706014773,"~/prog/lua/readme.md"
+-'  29  0  ~/prog/lua/readme.md
+|4,39,29,0,1706014773,"~/prog/lua/readme.md"
+-'  29  0  ~/prog/lua/readme.md
+|4,39,29,0,1706014773,"~/prog/lua/readme.md"
+-'  29  0  ~/prog/lua/readme.md
+|4,39,29,0,1706014773,"~/prog/lua/readme.md"
+-'  1  0  ~/prog/lua/main.lua
+|4,39,1,0,1706014690,"~/prog/lua/main.lua"
+-'  1  0  ~/prog/lua/main.lua
+|4,39,1,0,1706014690,"~/prog/lua/main.lua"
+-'  1  0  ~/prog/lua/main.lua
+|4,39,1,0,1706014690,"~/prog/lua/main.lua"
+-'  1  0  ~/prog/lua/main.lua
+|4,39,1,0,1706014690,"~/prog/lua/main.lua"
+-'  1  0  ~/prog/lua/main.lua
+|4,39,1,0,1706014690,"~/prog/lua/main.lua"
+-'  1  0  ~/prog/lua/main.lua
+|4,39,1,0,1706014690,"~/prog/lua/main.lua"
+-'  1  0  ~/prog/lua/main.lua
+|4,39,1,0,1706014690,"~/prog/lua/main.lua"
+-'  1  0  ~/prog/lua/main.lua
+|4,39,1,0,1706014690,"~/prog/lua/main.lua"
+-'  54  30  ~/.vimrc
+|4,39,54,30,1706014612,"~/.vimrc"
+-'  54  30  ~/.vimrc
+|4,39,54,30,1706014612,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1706014272,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1706014272,"~/.vimrc"
+-'  1  0  ~/NetrwTreeListing
+|4,39,1,0,1705985138,"~/NetrwTreeListing"
+-'  1  0  ~/NetrwTreeListing
+|4,39,1,0,1705985138,"~/NetrwTreeListing"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1705985121,"~/.bashrc"
+-'  54  0  ~/NetrwTreeListing
+|4,39,54,0,1705985051,"~/NetrwTreeListing"
+-'  26  0  ~/NetrwTreeListing
+|4,39,26,0,1705985051,"~/NetrwTreeListing"
+-'  54  0  ~/NetrwTreeListing
+|4,39,54,0,1705985051,"~/NetrwTreeListing"
+-'  26  0  ~/NetrwTreeListing
+|4,39,26,0,1705985051,"~/NetrwTreeListing"
+-'  1  0  ~/NetrwTreeListing
+|4,39,1,0,1705984948,"~/NetrwTreeListing"
+-'  1  0  ~/NetrwTreeListing
+|4,39,1,0,1705984948,"~/NetrwTreeListing"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1705984722,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1705984722,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1705984722,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1705984722,"~/.vimrc"
+-'  1  0  ~/NetrwTreeListing
+|4,39,1,0,1705984699,"~/NetrwTreeListing"
+-'  1  0  ~/NetrwTreeListing
+|4,39,1,0,1705984699,"~/NetrwTreeListing"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1705984631,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1705984631,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1705984631,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1705984631,"~/.vimrc"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+-'  27  0  ~/prog/lua/main.lua
+|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+
+# Histórico de marcas nos arquivos (mais recente primeiro):
+
+> ~/.vimrc
+	*	1706014938	0
+	"	58	21
+	^	58	22
+	.	58	21
+	+	1	17
+	+	49	0
+	+	1	16
+	+	44	12
+	+	46	0
+	+	1	53
+	+	1	42
+	+	1	0
+	+	1	17
+	+	1	25
+	+	42	0
+	+	40	22
+	+	40	24
+	+	40	27
+	+	40	0
+	+	38	11
+	+	24	10
+	+	37	30
+	+	38	0
+	+	7	0
+	+	5	0
+	+	4	0
+	+	1	0
+	+	7	23
+	+	40	0
+	+	7	22
+	+	4	20
+	+	7	19
+	+	4	0
+	+	1	10
+	+	16	45
+	+	19	11
+	+	23	12
+	+	7	0
+	+	3	0
+	+	2	2
+	+	1	0
+	+	6	0
+	+	7	0
+	+	8	23
+	+	1	0
+	+	9	36
+	+	11	20
+	+	14	27
+	+	18	26
+	+	21	31
+	+	24	0
+	+	37	0
+	+	32	0
+	+	26	14
+	+	27	3
+	+	26	11
+	+	31	13
+	+	25	31
+	+	33	29
+	+	34	13
+	+	37	0
+	+	35	0
+	+	49	15
+	+	50	12
+	+	49	33
+	+	50	24
+	+	49	23
+	+	44	23
+	+	51	12
+	+	53	12
+	+	51	26
+	+	53	26
+	+	54	0
+	+	53	12
+	+	54	12
+	+	53	28
+	+	54	28
+	+	48	18
+	+	36	36
+	+	48	2
+	+	10	0
+	+	56	0
+	+	55	12
+	+	56	12
+	+	55	21
+	+	56	21
+	+	55	10
+	+	59	0
+	+	52	0
+	+	57	12
+	+	58	12
+	+	57	21
+	+	58	21
+
+> ~/prog/lua/readme.md
+	*	1706014770	0
+	"	29	0
+
+> ~/prog/lua/creds.lua
+	*	1706014755	0
+	"	23	0
+
+> ~/prog/lua/main.lua
+	*	1706014735	0
+	"	59	0
+	.	60	0
+	+	2	0
+	+	60	2
+	+	60	16
+	+	60	0
+
+> ~/.bashrc
+	*	1705985127	0
+	"	22	0
+	^	9	56
+	.	9	55
+	+	1	0
+	+	8	55
+	+	9	55
+
+> ~/NetrwTreeListing
+	*	1705985050	0
+	"	26	0
+	.	1	0
+	+	1	0
+
+> ~/prog/node/login/login.js
+	*	1705984980	0
+	"	1	0
+
+> ~/prog/node/login/creds.json
+	*	1705984979	0
+	"	1	0
+
+> ~/prog/node/perguntas/perguntas.js
+	*	1705984977	0
+	"	1	0
+
+> ~/prog/lua/prog/node/perguntas/perguntas.js
+	*	1705984609	0
+	"	1	0
+
+> /usr/share/vim/vim91/doc/pi_netrw.txt
+	*	1705984583	0
+	"	337	32
+
+> ~/prog/node/readme.md
+	*	1705984344	0
+	"	1	0
+
+> ~/prog/node/figlet/main.js
+	*	1705984329	0
+	"	22	0
+	.	18	0
+	+	18	0
+
+> /mnt/setup/instalar.sh
+	*	1705978250	0
+	"	13	72
+	^	13	73
+	.	13	72
+	+	13	72
+
+> ~/.config/mpv/scripts/zenity-open-files.lua
+	*	1705977229	0
+	"	159	59
+	^	159	60
+	.	159	59
+	+	159	59
+
+> ~/.config/mpv/scripts/youtube-search.lua
+	*	1705977174	0
+	"	29	0
+
+> ~/.config/mpv/script-opts/file_browser.conf
+	*	1705976775	0
+	"	34	0
+	^	156	40
+	.	156	39
+	+	156	39
+
+> ~/.config/mpv/scripts-modules/extended-menu.lua
+	*	1705976346	0
+	"	898	0
+	^	898	0
+	.	897	9
+	+	897	9
+
+> ~/.config/mpv/plugins/command_palette.lua
+	*	1705976199	0
+	"	485	0
+	^	485	0
+	.	484	4
+	+	968	4
+	+	484	4
+
+> ~/2024-01-22T15:28:18,046531922-03:00.png
+	*	1705974552	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.local/bin/wp
+	*	1705974165	0
+	"	8	4
+	^	8	5
+	.	8	4
+	+	7	0
+	+	8	3
+	+	7	26
+	+	8	4
+
+> ~/.config/labwc/rc.xml
+	*	1705952171	0
+	"	144	36
+	^	144	37
+	.	144	36
+	+	161	20
+	+	159	20
+	+	23	19
+	+	181	55
+	+	196	131
+	+	201	115
+	+	201	203
+	+	201	117
+	+	201	118
+	+	201	159
+	+	201	158
+	+	201	115
+	+	201	116
+	+	201	0
+	+	161	23
+	+	144	36
+
+> ~/new-site/content/posts/minha-nova-tv.md
+	*	1705941888	0
+	"	10	0
+	^	12	2
+	.	21	16
+	+	3	15
+	+	5	9
+	+	6	0
+	+	7	11
+	+	23	21
+	+	9	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	13	0
+	+	21	16
+
+> ~/new-site/content/posts/sway.md
+	*	1705941685	0
+	"	29	5
+	^	29	6
+	.	29	5
+	+	3	15
+	+	5	8
+	+	6	0
+	+	7	8
+	+	34	21
+	+	18	2
+	+	9	0
+	+	19	2
+	+	21	3
+	+	24	0
+	+	23	2
+	+	9	2
+	+	14	83
+	+	14	411
+	+	31	5
+	+	29	0
+	+	32	0
+	+	29	5
+
+> ~/new-site/content/posts/fedora-sericea.md
+	*	1705941463	0
+	"	13	84
+	^	13	85
+	.	9	636
+	+	3	15
+	+	5	9
+	+	6	0
+	+	7	8
+	+	15	21
+	+	9	216
+	+	9	636
+
+> ~/new-site/content/posts/google-domains-vai-de-vasco.md
+	*	1705941333	0
+	"	18	0
+	^	18	0
+	.	18	0
+	+	3	15
+	+	5	9
+	+	6	0
+	+	8	12
+	+	20	20
+	+	18	2
+	+	18	89
+	+	18	0
+
+> ~/new-site/content/posts/greenbox.md
+	*	1705941243	0
+	"	4	10
+	^	4	11
+	.	4	10
+	+	3	15
+	+	7	11
+	+	8	8
+	+	10	68
+	+	16	188
+	+	5	9
+	+	12	200
+	+	14	91
+	+	17	0
+	+	18	0
+	+	6	11
+	+	18	25
+	+	6	0
+	+	18	0
+	+	6	0
+	+	7	0
+	+	4	10
+
+> ~/new-site/content/posts/greenbox-finalizada.md
+	*	1705941234	0
+	"	4	10
+	^	4	11
+	.	4	10
+	+	3	15
+	+	9	8
+	+	31	82
+	+	11	1
+	+	18	16
+	+	19	14
+	+	20	8
+	+	21	8
+	+	22	8
+	+	23	8
+	+	24	8
+	+	23	8
+	+	22	8
+	+	21	8
+	+	20	9
+	+	21	9
+	+	22	9
+	+	23	9
+	+	24	20
+	+	23	20
+	+	22	19
+	+	21	19
+	+	20	20
+	+	21	21
+	+	20	21
+	+	22	19
+	+	23	20
+	+	24	21
+	+	17	7
+	+	26	0
+	+	30	5
+	+	2	23
+	+	8	0
+	+	4	10
+
+> ~/new-site/content/posts/workflow-web.md
+	*	1705941112	0
+	"	9	0
+	.	9	0
+	+	3	15
+	+	6	0
+	+	7	6
+	+	15	21
+	+	5	9
+	+	9	0
+
+> ~/new-site/content/posts/proton-pass.md
+	*	1705941017	0
+	"	5	9
+	^	5	10
+	.	5	9
+	+	3	14
+	+	6	0
+	+	7	0
+	+	16	65
+	+	8	3
+	+	9	0
+	+	5	9
+
+> ~/new-site/content/posts/usando-o-hugo-framework.md
+	*	1705940902	0
+	"	37	5
+	^	37	6
+	.	37	5
+	+	3	15
+	+	9	6
+	+	40	21
+	+	20	6
+	+	24	2
+	+	24	0
+	+	23	0
+	+	22	0
+	+	21	0
+	+	29	2
+	+	33	2
+	+	29	10
+	+	30	141
+	+	31	150
+	+	32	0
+	+	31	151
+	+	24	0
+	+	11	1
+	+	17	21
+	+	18	0
+	+	37	5
+
+> ~/new-site/content/posts/assinei-spotify.md
+	*	1705940624	0
+	"	8	2
+	^	2	18
+	.	8	0
+	+	3	15
+	+	4	11
+	+	5	8
+	+	8	11
+	+	9	12
+	+	58	58
+	+	50	0
+	+	39	0
+	+	20	2
+	+	25	99
+	+	26	20
+	+	11	2
+	+	16	0
+	+	27	52
+	+	26	28
+	+	2	17
+	+	8	0
+
+> ~/new-site/content/posts/atualizacoes.md
+	*	1705940618	0
+	"	6	11
+	^	6	12
+	.	6	11
+	+	1	0
+	+	46	0
+	+	7	2
+	+	1	2
+	+	46	0
+	+	45	20
+	+	8	1
+	+	18	2
+	+	26	2
+	+	37	0
+	+	36	0
+	+	37	0
+	+	35	0
+	+	34	0
+	+	33	0
+	+	32	1
+	+	33	1
+	+	34	1
+	+	35	1
+	+	36	1
+	+	37	1
+	+	41	2
+	+	5	15
+	+	8	0
+	+	1	0
+	+	7	2
+	+	1	2
+	+	2	5
+	+	3	4
+	+	5	14
+	+	2	7
+	+	6	3
+	+	4	8
+	+	6	11
+
+> ~/new-site/content/posts/bandcamp.md
+	*	1705940596	0
+	"	6	2
+	^	7	13
+	.	6	0
+	+	10	0
+	+	14	1
+	+	10	1
+	+	15	0
+	+	20	1
+	+	14	1
+	+	22	2
+	+	22	0
+	+	3	10
+	+	22	279
+	+	22	0
+	+	23	2
+	+	10	0
+	+	8	2
+	+	1	2
+	+	4	9
+	+	2	5
+	+	3	4
+	+	4	3
+	+	5	6
+	+	8	11
+	+	8	1
+	+	8	2
+	+	8	10
+	+	8	3
+	+	2	16
+	+	8	3
+	+	8	11
+	+	8	12
+	+	8	0
+	+	6	11
+	+	6	10
+	+	7	12
+	+	6	0
+
+> ~/new-site/content/posts/preview.png
+	*	1705940577	0
+	"	1	0
+
+> ~/new-site/content/posts/spotify-vs-youtube.md
+	*	1705940571	0
+	"	8	2
+	^	9	13
+	.	8	0
+	+	4	11
+	+	5	8
+	+	8	10
+	+	31	0
+	+	3	15
+	+	11	38
+	+	30	110
+	+	11	0
+	+	12	2
+	+	15	2
+	+	18	20
+	+	18	37
+	+	20	26
+	+	18	38
+	+	20	13
+	+	21	38
+	+	18	0
+	+	19	0
+	+	26	2
+	+	29	2
+	+	9	12
+	+	8	0
+
+> ~/new-site/themes/hello-friend-ng/archetypes/posts.md
+	*	1705937563	0
+	"	4	11
+	^	4	12
+	.	4	11
+	+	5	8
+	+	4	11
+
+> ~/new-site/archetypes/default.md
+	*	1705937537	0
+	"	1	0
+	^	5	3
+	.	5	2
+	+	1	2
+	+	5	2
+	+	4	9
+	+	1	2
+	+	5	2
+
+> ~/new-site/hugo.toml
+	*	1705936660	0
+	"	41	4
+	.	41	0
+	+	2	20
+	+	3	14
+	+	1	38
+	+	5	16
+	+	56	0
+	+	56	20
+	+	6	0
+	+	56	0
+	+	7	8
+	+	7	0
+	+	56	8
+	+	56	0
+	+	5	23
+	+	6	16
+	+	55	24
+	+	9	31
+	+	10	25
+	+	11	30
+	+	12	30
+	+	24	33
+	+	35	0
+	+	44	23
+	+	38	0
+	+	37	18
+	+	40	68
+	+	15	70
+	+	27	32
+	+	28	14
+	+	38	33
+	+	21	29
+	+	34	0
+	+	38	0
+	+	41	0
+
+> ~/new-site/content/bandcamp.md
+	*	1705936214	0
+	"	10	0
+	^	10	0
+	.	9	56
+	+	4	26
+	+	5	3
+	+	24	64
+	+	5	3
+	+	7	1
+	+	9	56
+
+> ~/new-site/themes/risotto/exampleSite/config.toml
+	*	1705935677	0
+	"	100	0
+
+> ~/new-site/content/atualizações.md
+	*	1705934931	0
+	"	7	4
+	^	7	5
+	.	7	4
+	+	1	2
+	+	4	2
+	+	1	2
+	+	8	6
+	+	4	13
+	+	7	4
+
+> ~/new-site/themes/hello-friend-ng/assets/scss/_main.scss
+	*	1705934586	0
+	"	45	21
+	^	281	20
+	.	33	0
+	+	33	24
+	+	34	13
+	+	47	15
+	+	46	0
+	+	47	0
+	+	46	0
+	+	209	15
+	+	33	0
+
+> ~/new-site/themes/hello-friend-ng/assets/scss/main.scss
+	*	1705934310	0
+	"	5	0
+
+> ~/new-site/themes/hello-friend-ng/archetypes/default.md
+	*	1705934288	0
+	"	1	0
+	.	5	0
+	+	4	0
+	+	5	0
+
+> ~/new-site/themes/hello-friend-ng/theme.toml
+	*	1705934220	0
+	"	1	0
+
+> ~/new-site/search.md
+	*	1705933442	0
+	"	9	0
+	^	9	0
+	.	8	3
+	+	8	3
+
+> ~/new-site/content/archives.md
+	*	1705933337	0
+	"	7	0
+	^	7	0
+	.	6	3
+	+	6	3
+
+> ~/new-site/config.yml
+	*	1705933188	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/teste/video/index.html
+	*	1705901776	0
+	"	27	122
+	^	27	123
+	.	27	122
+	+	1	0
+	+	23	21
+	+	26	0
+	+	26	12
+	+	26	0
+	+	26	118
+	+	8	34
+	+	7	34
+	+	26	0
+	+	31	0
+	+	26	132
+	+	26	40
+	+	26	18
+	+	26	159
+	+	24	0
+	+	24	140
+	+	24	0
+	+	27	1
+	+	28	3
+	+	27	134
+	+	31	12
+	+	24	11
+	+	15	26
+	+	18	26
+	+	19	26
+	+	26	0
+	+	29	20
+	+	24	0
+	+	24	119
+	+	27	119
+	+	24	16
+	+	32	0
+	+	24	9
+	+	31	0
+	+	29	20
+	+	27	119
+	+	25	10
+	+	30	12
+	+	29	10
+	+	28	16
+	+	27	4
+	+	32	0
+	+	27	122
+
+> ~/teste/blog/index.html
+	*	1705901156	0
+	"	18	52
+	^	18	53
+	.	18	52
+	+	18	52
+
+> ~/.config/foot/foot.ini
+	*	1705899229	0
+	"	29	0
+	.	30	0
+	+	29	29
+	+	10	16
+	+	11	16
+	+	12	14
+	+	13	14
+	+	14	14
+	+	15	9
+	+	13	9
+	+	14	9
+	+	13	14
+	+	14	14
+	+	15	14
+	+	16	14
+	+	15	14
+	+	16	14
+	+	17	14
+	+	18	14
+	+	19	14
+	+	20	13
+	+	7	18
+	+	20	14
+	+	1	25
+	+	7	6
+	+	20	17
+	+	30	0
+
+> ~/teste/index.html
+	*	1705897522	0
+	"	1	0
+	.	18	0
+	+	20	0
+	+	18	0
+
+> ~/prog/node/index.html
+	*	1705896387	0
+	"	4	7
+	^	4	8
+	.	4	7
+	+	1	14
+	+	2	19
+	+	5	6
+	+	4	7
+
+> ~/.local/bin/up
+	*	1705893397	0
+	"	3	8
+
+> ~/.local/bin/pdf
+	*	1705893237	0
+	"	1	0
+
+> ~/teste.ms
+	*	1705892845	0
+	"	1	0
+	^	8	15
+	.	8	14
+	+	9	0
+	+	1	0
+	+	3	2
+	+	8	14
+
+> ~/.newsboat/urls
+	*	1705886733	0
+	"	60	0
+	.	61	0
+	+	58	84
+	+	59	84
+	+	61	75
+	+	61	7
+	+	61	84
+	+	61	0
+
+> ~/lite-xl/README.md
+	*	1705880174	0
+	"	7	23
+	^	7	24
+	.	7	23
+	+	7	23
+	+	10	2
+	+	9	72
+	+	7	23
+
+> ~/.vim/autoload/onedark.vim
+	*	1705879368	0
+	"	1	0
+	^	29	11
+	.	29	10
+	+	29	10
+
+> ~/lua/main.lua
+	*	1705545299	0
+	"	1	0
+	.	2	0
+	+	2	0
+	+	3	0
+	+	2	0
+	+	1	0
+	+	3	0
+	+	1	0
+	+	2	0
+
+> ~/.gitconfig
+	*	1705545201	0
+	"	2	0
+	.	2	0
+	+	2	36
+	+	2	0
+
+> ~/[Vundle] search
+	*	1705544043	0
+	"	1	0
+
+> /tmp/vDSD5bp/2
+	*	1705544015	0
+	"	1	0
+
+> ~/[Vundle] Installer
+	*	1705544011	0
+	"	4	0
+	.	1	0
+	+	7	0
+	+	4	0
+	+	1	0
+
+> ~/lua/creds.lua
+	*	1705515785	0
+	"	1	0
+
+> ~/node/figlet/main.js
+	*	1705515413	0
+	"	4	0
+
+> /media/suckless/instalar
+	*	1705513003	0
+	"	6	70
+	^	6	71
+	.	6	70
+	+	5	141
+	+	5	138
+	+	4	19
+	+	4	82
+	+	5	0
+	+	5	83
+	+	6	0
+	+	10	15
+	+	11	23
+	+	6	62
+	+	14	0
+	+	30	0
+	+	29	0
+	+	15	0
+	+	6	70
+
+> /media/setup/instalar.sh
+	*	1705512990	0
+	"	17	84
+	^	17	85
+	.	17	84
+	+	7	14
+	+	8	9
+	+	9	15
+	+	2	65
+	+	16	69
+	+	3	20
+	+	15	0
+	+	19	3
+	+	2	0
+	+	19	13
+	+	15	20
+	+	16	99
+	+	7	0
+	+	16	115
+	+	15	41
+	+	15	78
+	+	16	72
+	+	6	23
+	+	5	14
+	+	17	84
+
+> /media/setup/.config/labwc/rc.xml
+	*	1705511657	0
+	"	1	0
+	^	161	24
+	.	174	0
+	+	176	25
+	+	161	23
+	+	174	0
+
+> /media/setup/.config/labwc/menu.xml
+	*	1705511323	0
+	"	1	0
+	^	10	26
+	.	10	25
+	+	8	25
+	+	10	25
+
+> ~/.config/labwc/autostart
+	*	1705467951	0
+	"	2	0
+	.	3	0
+	+	3	0
+
+> ~/.config/mimeapps.list
+	*	1705447655	0
+	"	6	0
+	^	6	24
+	.	6	23
+	+	5	13
+	+	6	23
+
+> ~/.config/lite-xl/.lite_temp_008a3c2f000001.html
+	*	1705447397	0
+	"	16	0
+
+> ~/.config/lite-xl/plugins/pdfview.lua
+	*	1705438492	0
+	"	9	21
+	^	23	35
+	.	9	0
+	+	9	36
+	+	17	0
+	+	23	0
+	+	9	0
+
+> ~/.config/lite-xl/.lite_temp_00019604000002.html
+	*	1705375597	0
+	"	1	0
+
+> ~/.config/lite-xl/.lite_temp_00019604000001.html
+	*	1705375579	0
+	"	1	0
+
+> ~/.local/bin/dufs
+	*	1705367642	0
+	"	2	68
+	^	2	69
+	.	2	68
+	+	2	68
+
+> ~/.config/labwc/menu.xml
+	*	1705367122	0
+	"	8	22
+	^	8	23
+	.	8	22
+	+	20	22
+	+	18	17
+	+	20	20
+	+	18	22
+	+	10	32
+	+	10	55
+	+	8	22
+
+> ~/.local/share/themes/greenbox/openbox-3/themerc
+	*	1705366846	0
+	"	1	0
+	^	38	39
+	.	38	38
+	+	4	36
+	+	5	34
+	+	6	22
+	+	5	31
+	+	6	27
+	+	8	29
+	+	4	36
+	+	9	38
+	+	11	28
+	+	13	29
+	+	14	27
+	+	18	20
+	+	19	30
+	+	20	28
+	+	21	32
+	+	20	28
+	+	34	38
+	+	35	36
+	+	27	50
+	+	37	40
+	+	38	39
+	+	1	0
+	+	28	52
+	+	37	40
+	+	38	38
+	+	4	36
+	+	5	34
+	+	6	27
+	+	5	34
+	+	8	29
+	+	9	38
+	+	11	28
+	+	13	29
+	+	14	27
+	+	18	20
+	+	19	30
+	+	20	28
+	+	21	32
+	+	27	50
+	+	28	52
+	+	34	38
+	+	35	36
+	+	34	38
+	+	38	38
+
+> ~/.config/mako/config
+	*	1705366723	0
+	"	5	19
+	^	5	20
+	.	5	19
+	+	3	23
+	+	4	17
+	+	5	19
+	+	3	23
+	+	4	17
+	+	5	19
+
+> ~/img/docker-compose.yaml
+	*	1705366163	0
+	"	12	20
+	^	12	21
+	.	12	20
+	+	12	20
+
+> /run/user/1000/gvfs/mtp:host=Xiaomi_POCO_M4_Pro_RW85ZPAYSOGQBIPZ/Divisão interna de armazenamento/Documents/Backup/Weeb.m3u8
+	*	1705353774	0
+	"	267	0
+	.	3	0
+	+	3	0
+
+> /run/user/1000/gvfs/mtp:host=Xiaomi_POCO_M4_Pro_RW85ZPAYSOGQBIPZ/Divisão interna de armazenamento/Documents/Backup/Se meche k7.m3u8
+	*	1705353752	0
+	"	101	0
+	.	3	0
+	+	3	0
+
+> /run/user/1000/gvfs/mtp:host=Xiaomi_POCO_M4_Pro_RW85ZPAYSOGQBIPZ/Divisão interna de armazenamento/Documents/Backup/Forza.m3u8
+	*	1705353717	0
+	"	87	0
+	^	51	42
+	.	3	0
+	+	3	0
+	+	51	40
+	+	3	0
+
+> ~/.xinitrc
+	*	1705341974	0
+	"	4	13
+	^	4	14
+	.	4	13
+	+	5	2
+	+	4	13
+
+> ~/.vim/colors/onedark.vim
+	*	1705333273	0
+	"	9	0
+	^	3907	189
+	.	3941	338
+	+	1	16
+	+	3941	338
+
+> ~/.vim/colors/ghdark.vim
+	*	1705333234	0
+	"	18	0
+	^	650	29
+	.	650	28
+	+	650	28
+
+> ~/git/dwl/config.h
+	*	1705331950	0
+	"	54	20
+	^	54	22
+	.	54	21
+	+	9	45
+	+	54	21
+	+	103	31
+	+	129	26
+	+	122	17
+	+	129	30
+	+	131	19
+	+	129	27
+	+	122	9
+	+	103	31
+	+	9	45
+	+	54	21
+
+> ~/git/dwl/config.def.h
+	*	1705331629	0
+	"	126	0
+
+> ~/teste
+	*	1705257660	0
+	"	4	34
+	^	4	35
+	.	20	3
+	+	20	3
+
+> /etc/gitea/app.ini
+	*	1705248888	0
+	"	1	0
+
+> /media/git/gitea/gitea/conf/app.ini
+	*	1705248465	0
+	"	17	22
+	^	17	23
+
+> /media/git/docker-compose.yml
+	*	1705248339	0
+	"	27	17
+	^	27	18
+	.	27	17
+	+	28	15
+	+	9	28
+	+	18	37
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	15	1
+	+	16	3
+	+	17	5
+	+	18	1
+	+	43	0
+	+	42	0
+	+	41	0
+	+	40	0
+	+	39	0
+	+	38	0
+	+	37	0
+	+	36	0
+	+	35	0
+	+	34	0
+	+	33	0
+	+	32	0
+	+	31	0
+	+	30	0
+	+	29	0
+	+	32	0
+	+	27	17
+
+> ~/.bash_profile
+	*	1705157375	0
+	"	9	4
+	^	9	5
+	.	9	4
+	+	8	11
+	+	10	0
+	+	8	0
+	+	10	0
+	+	9	4
+
+> ~/.config/rofi/config.rasi
+	*	1705155396	0
+	"	4	14
+	^	4	15
+	.	4	14
+	+	4	14
+
+> ~/.config/rofi/themes/ondedark.rasi
+	*	1705155333	0
+	"	95	0
+	^	95	1
+	.	95	0
+	+	95	0
+
+> ~/.config/rofi/themes/greenbox.rasi
+	*	1705155324	0
+	"	5	13
+	^	5	14
+	.	5	0
+	+	5	19
+	+	6	19
+	+	7	19
+	+	6	374
+	+	6	19
+	+	7	19
+	+	9	23
+	+	7	19
+	+	9	25
+	+	5	0
+
+> ~/.local/bin/vs
+	*	1705154386	0
+	"	3	25
+	^	3	26
+	.	3	25
+	+	2	30
+	+	3	25
+
+> /media/jellyfin/jelly
+	*	1704846495	0
+	"	4	16
+	^	4	17
+	.	4	16
+	+	6	11
+	+	7	11
+	+	8	33
+	+	4	11
+	+	6	28
+	+	7	26
+	+	4	16

@@ -1,8 +1,22 @@
+" vim-plug "
+set nocompatible
+call plug#begin()
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'ervandew/supertab'
+Plug 'sheerun/vim-polyglot'
+Plug 'ap/vim-css-color'
+Plug 'prettier/vim-prettier', { 'do': 'npm install --force --frozen-lockfile --production' }
+call plug#end()
+
 " aparência "
 colorscheme onedark
 set termguicolors
 syntax enable
-set relativenumber
+set number
+
+" airline "
+let g:airline_powerline_fonts = 1
 
 " auto-completar código "
 set omnifunc=syntaxcomplete#Complete
@@ -38,10 +52,6 @@ let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 let g:netrw_winsize = 20
-augroup ProjectDrawer
-  autocmd!
-  autocmd VimEnter * :Lex
-augroup END
 
 " teclas de atalho "
 inoremap <c-b> <Esc>:Lex<cr> 
@@ -54,3 +64,7 @@ nnoremap <c-q> <Esc>:q<cr>
 inoremap <c-q> <Esc>:q<cr> 
 nnoremap <c-s> <Esc>:w<cr>
 inoremap <c-s> <Esc>:w<cr> 
+inoremap <c-p> <Esc>i<c-x><c-o>
+nnoremap <c-s-p> <Esc>:PluginInstall<cr>
+inoremap <c-s-p> <Esc>:PluginInstall<cr>
+nnoremap <c-p> <Esc>i<c-x><c-o>

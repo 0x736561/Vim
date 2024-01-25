@@ -11,27 +11,83 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último padrão de busca :
-~MSle0~/lite
+~MSle0~/\
 
 # Último padrão de busca  de substituição:
-~MSle0&light-
+~MSle0&VIM
 
 # Última string de substituição:
 $
 
 # Histórico de linha de comando (mais recente primeiro):
+:q
+|2,0,1706159195,,"q"
 :so%
-|2,0,1706014926,,"so%"
+|2,0,1706159191,,"so%"
 :w
-|2,0,1706014924,,"w"
+|2,0,1706159190,,"w"
+:PluginInstall
+|2,0,1706159181,,"PluginInstall"
+:wq
+|2,0,1706158992,,"wq"
+:Prettier
+|2,0,1706158984,,"Prettier"
+:PlugInstall
+|2,0,1706158853,,"PlugInstall"
+:q!
+|2,0,1706158047,,"q!"
+:colorscheme onedark
+|2,0,1706157913,,"colorscheme onedark"
+:colorscheme evolution
+|2,0,1706157874,,"colorscheme evolution"
+:colorscheme C64
+|2,0,1706157836,,"colorscheme C64"
+:let g:user_emmet_mode='a'
+|2,0,1706157076,,"let g:user_emmet_mode='a'"
+:Emmet
+|2,0,1706157008,,"Emmet"
+:EmmetInstall
+|2,0,1706156992,,"EmmetInstall"
+:w ~/index.html
+|2,0,1706156968,,"w ~/index.html"
+:Q
+|2,0,1706156689,,"Q"
+:s
+|2,0,1706156636,,"s"
+:i
+|2,0,1706156233,,"i"
+:YcmRestartServer
+|2,0,1706155476,,"YcmRestartServer"
+:.!ls
+|2,0,1706154130,,".!ls"
+:.!Ls
+|2,0,1706154126,,".!Ls"
+:Ls
+|2,0,1706154119,,"Ls"
+:Ls()
+|2,0,1706154116,,"Ls()"
+:ls()
+|2,0,1706154083,,"ls()"
+:ls
+|2,0,1706154078,,"ls"
+:cat
+|2,0,1706154053,,"cat"
+:let g:airline_section_a
+|2,0,1706153806,,"let g:airline_section_a"
+:help airline
+|2,0,1706153046,,"help airline"
+:AirlineExtensions
+|2,0,1706152634,,"AirlineExtensions"
+:AirlineTheme onedark
+|2,0,1706152545,,"AirlineTheme onedark"
+:so
+|2,0,1706151870,,"so"
+:%s/VIM/Vim/g
+|2,0,1706027050,,"%s/VIM/Vim/g"
 :tabclose
 |2,0,1706014543,,"tabclose"
 :Lex
 |2,0,1706014464,,"Lex"
-:q
-|2,0,1706014459,,"q"
-:q!
-|2,0,1705985132,,"q!"
 :wq!
 |2,0,1705985050,,"wq!"
 :Vexplore
@@ -66,8 +122,6 @@ $
 |2,0,1705984050,,".!lua"
 :'<,'>!lua
 |2,0,1705984034,,"'<,'>!lua"
-:wq
-|2,0,1705982973,,"wq"
 :set termguicolors
 |2,0,1705982966,,"set termguicolors"
 :.!imv
@@ -84,46 +138,26 @@ $
 |2,0,1705936078,,"! hugo new content bandcamp.md"
 :open
 |2,0,1705936068,,"open"
-:! mkdir src
-|2,0,1705897766,,"! mkdir src"
-:'<,'>s/light-/dark-/g
-|2,0,1705934437,,"'<,'>s/light-/dark-/g"
-:open search.md
-|2,0,1705933438,,"open search.md"
-:open config.yml
-|2,0,1705933109,,"open config.yml"
-:winsize 20
-|2,0,1705545555,,"winsize 20"
-:qq
-|2,0,1705545378,,"qq"
-:set g:netrw_liststyle = 3
-|2,0,1705544911,,"set g:netrw_liststyle = 3"
-:PluginSearch YouCompleteMe
-|2,0,1705544038,,"PluginSearch YouCompleteMe"
-:PluginInstall YouCompleteMe
-|2,0,1705544006,,"PluginInstall YouCompleteMe"
-:set omnifunc=lua
-|2,0,1705543115,,"set omnifunc=lua"
-:set omnifunc=luacomplete
-|2,0,1705543098,,"set omnifunc=luacomplete"
-:'<,'>s/primary//g
-|2,0,1705353774,,"'<,'>s/primary//g"
-:'<,'>s/Music/\/Music/g
-|2,0,1705353715,,"'<,'>s/Music/\\/Music/g"
-:.!
-|2,0,1705353675,,".!"
-:s
-|2,0,1705353658,,"s"
-:'<,'>s/\/storage\/emulated\/0\///g
-|2,0,1705353520,,"'<,'>s/\\/storage\\/emulated\\/0\\///g"
-:'<,'>s/\/storage\/emulated\/0//g
-|2,0,1705353504,,"'<,'>s/\\/storage\\/emulated\\/0//g"
-:'<,'>s/\/M/M/g
-|2,0,1705353476,,"'<,'>s/\\/M/M/g"
 
 # Histórico de expressões de busca (mais recente primeiro):
 ? @$
-|2,1,1706014883,,"@$"
+|2,1,1706159091,,"@$"
+?/\
+|2,1,1706153156,47,"\\"
+?/ 
+|2,1,1706153151,47," "
+?/pdf
+|2,1,1706107803,47,"pdf"
+?/bash
+|2,1,1706057591,47,"bash"
+? VIM
+|2,1,1706027050,,"VIM"
+?/%s/VIM/Vim/g
+|2,1,1706027038,47,"%s/VIM/Vim/g"
+?/grim
+|2,1,1706024353,47,"grim"
+?/grimshot
+|2,1,1706024349,47,"grimshot"
 ? = $
 |2,1,1705984520,,"= $"
 ??\a
@@ -198,355 +232,755 @@ $
 # Histórico de linha de debug (mais recente primeiro):
 
 # Registradores:
-"0	LINE	0
-	nnoremap <c-q> <Esc>:q<cr>
-	inoremap <c-q> <Esc>:q<cr> 
-|3,0,0,1,2,0,1706014908,"nnoremap <c-q> <Esc>:q<cr>","inoremap <c-q> <Esc>:q<cr> "
+""0	LINE	0
+	inoremap <c-p> <Esc>i<c-x><c-o>
+	nnoremap <c-p> <Esc>i<c-x><c-o>
+|3,1,0,1,2,0,1706159119,"inoremap <c-p> <Esc>i<c-x><c-o>","nnoremap <c-p> <Esc>i<c-x><c-o>"
 "1	LINE	0
 	
-|3,0,1,1,1,0,1706014883,""
+|3,0,1,1,1,0,1706159091,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1706014883,""
+|3,0,2,1,1,0,1706159091,""
 "3	LINE	0
-	nnoremap <c-t> <Esc>:tabnew<cr>
-|3,0,3,1,1,0,1706014869,"nnoremap <c-t> <Esc>:tabnew<cr>"
+	
+|3,0,3,1,1,0,1706159091,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1706014848,""
+|3,0,4,1,1,0,1706159091,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1706014848,""
+|3,0,5,1,1,0,1706159090,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1706014845,""
+|3,0,6,1,1,0,1706159090,""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1706014845,""
+	Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+|3,0,7,1,1,0,1706158738,"Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1706014778,""
+	Plug 'prettier/prettier'
+|3,0,8,1,1,0,1706158718,"Plug 'prettier/prettier'"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1706014778,""
-""-	CHAR	0
-	q
-|3,1,36,0,1,0,1706014917,"q"
+	Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+|3,0,9,1,1,0,1706158399,"Plug 'prettier/vim-prettier', { 'do': 'yarn install' }"
+"-	CHAR	0
+	yarn 
+|3,0,36,0,1,0,1706158749,"yarn "
+
+# variáveis globais:
 
 # Marcas nos arquivos:
-'0  58  21  ~/.vimrc
-|4,48,58,21,1706014938,"~/.vimrc"
-'1  1  0  ~/.vimrc
-|4,49,1,0,1706014847,"~/.vimrc"
+'0  69  39  ~/.vimrc
+|4,48,69,39,1706159196,"~/.vimrc"
+'1  2  0  ~/git/node/login/startup.js
+|4,49,2,0,1706158992,"~/git/node/login/startup.js"
 '2  1  0  ~/.vimrc
-|4,50,1,0,1706014847,"~/.vimrc"
-'3  55  9  ~/.vimrc
-|4,51,55,9,1706014843,"~/.vimrc"
-'4  55  9  ~/.vimrc
-|4,52,55,9,1706014843,"~/.vimrc"
-'5  54  9  ~/.vimrc
-|4,53,54,9,1706014843,"~/.vimrc"
-'6  54  9  ~/.vimrc
-|4,54,54,9,1706014843,"~/.vimrc"
-'7  29  0  ~/prog/lua/readme.md
-|4,55,29,0,1706014773,"~/prog/lua/readme.md"
-'8  55  30  ~/.vimrc
-|4,56,55,30,1706014612,"~/.vimrc"
-'9  55  30  ~/.vimrc
-|4,57,55,30,1706014612,"~/.vimrc"
+|4,50,1,0,1706158914,"~/.vimrc"
+'3  1  0  ~/.vimrc
+|4,51,1,0,1706158914,"~/.vimrc"
+'4  9  58  ~/.vimrc
+|4,52,9,58,1706158848,"~/.vimrc"
+'5  9  58  ~/.vimrc
+|4,53,9,58,1706158848,"~/.vimrc"
+'6  9  58  ~/.vimrc
+|4,54,9,58,1706158848,"~/.vimrc"
+'7  9  58  ~/.vimrc
+|4,55,9,58,1706158848,"~/.vimrc"
+'8  1  0  ~/.vimrc
+|4,56,1,0,1706158816,"~/.vimrc"
+'9  1  0  ~/.vimrc
+|4,57,1,0,1706158816,"~/.vimrc"
 
 # Lista de saltos (mais recente primeiro):
--'  58  21  ~/.vimrc
-|4,39,58,21,1706014938,"~/.vimrc"
+-'  69  39  ~/.vimrc
+|4,39,69,39,1706159196,"~/.vimrc"
+-'  12  0  ~/.vimrc
+|4,39,12,0,1706159112,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1706159097,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1706014853,"~/.vimrc"
+|4,39,1,0,1706159079,"~/.vimrc"
+-'  2  0  ~/git/node/login/startup.js
+|4,39,2,0,1706158992,"~/git/node/login/startup.js"
+-'  2  0  ~/git/node/login/startup.js
+|4,39,2,0,1706158992,"~/git/node/login/startup.js"
+-'  1  6  ~/git/node/login/startup.js
+|4,39,1,6,1706158990,"~/git/node/login/startup.js"
+-'  1  6  ~/git/node/login/startup.js
+|4,39,1,6,1706158990,"~/git/node/login/startup.js"
+-'  30  0  ~/git/node/login/startup.js
+|4,39,30,0,1706158985,"~/git/node/login/startup.js"
+-'  30  0  ~/git/node/login/startup.js
+|4,39,30,0,1706158985,"~/git/node/login/startup.js"
+-'  31  0  ~/git/node/login/startup.js
+|4,39,31,0,1706158960,"~/git/node/login/startup.js"
+-'  31  0  ~/git/node/login/startup.js
+|4,39,31,0,1706158960,"~/git/node/login/startup.js"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1706014847,"~/.vimrc"
--'  55  9  ~/.vimrc
-|4,39,55,9,1706014843,"~/.vimrc"
--'  54  9  ~/.vimrc
-|4,39,54,9,1706014843,"~/.vimrc"
--'  54  9  ~/.vimrc
-|4,39,54,9,1706014843,"~/.vimrc"
+|4,39,1,0,1706158914,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1706014781,"~/.vimrc"
--'  29  0  ~/prog/lua/readme.md
-|4,39,29,0,1706014773,"~/prog/lua/readme.md"
--'  29  0  ~/prog/lua/readme.md
-|4,39,29,0,1706014773,"~/prog/lua/readme.md"
--'  29  0  ~/prog/lua/readme.md
-|4,39,29,0,1706014773,"~/prog/lua/readme.md"
--'  29  0  ~/prog/lua/readme.md
-|4,39,29,0,1706014773,"~/prog/lua/readme.md"
--'  29  0  ~/prog/lua/readme.md
-|4,39,29,0,1706014773,"~/prog/lua/readme.md"
--'  29  0  ~/prog/lua/readme.md
-|4,39,29,0,1706014773,"~/prog/lua/readme.md"
--'  29  0  ~/prog/lua/readme.md
-|4,39,29,0,1706014773,"~/prog/lua/readme.md"
--'  29  0  ~/prog/lua/readme.md
-|4,39,29,0,1706014773,"~/prog/lua/readme.md"
--'  1  0  ~/prog/lua/main.lua
-|4,39,1,0,1706014690,"~/prog/lua/main.lua"
--'  1  0  ~/prog/lua/main.lua
-|4,39,1,0,1706014690,"~/prog/lua/main.lua"
--'  1  0  ~/prog/lua/main.lua
-|4,39,1,0,1706014690,"~/prog/lua/main.lua"
--'  1  0  ~/prog/lua/main.lua
-|4,39,1,0,1706014690,"~/prog/lua/main.lua"
--'  1  0  ~/prog/lua/main.lua
-|4,39,1,0,1706014690,"~/prog/lua/main.lua"
--'  1  0  ~/prog/lua/main.lua
-|4,39,1,0,1706014690,"~/prog/lua/main.lua"
--'  1  0  ~/prog/lua/main.lua
-|4,39,1,0,1706014690,"~/prog/lua/main.lua"
--'  1  0  ~/prog/lua/main.lua
-|4,39,1,0,1706014690,"~/prog/lua/main.lua"
--'  54  30  ~/.vimrc
-|4,39,54,30,1706014612,"~/.vimrc"
--'  54  30  ~/.vimrc
-|4,39,54,30,1706014612,"~/.vimrc"
+|4,39,1,0,1706158914,"~/.vimrc"
+-'  9  58  ~/.vimrc
+|4,39,9,58,1706158848,"~/.vimrc"
+-'  9  58  ~/.vimrc
+|4,39,9,58,1706158848,"~/.vimrc"
+-'  9  58  ~/.vimrc
+|4,39,9,58,1706158848,"~/.vimrc"
+-'  9  58  ~/.vimrc
+|4,39,9,58,1706158848,"~/.vimrc"
+-'  9  58  ~/.vimrc
+|4,39,9,58,1706158848,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1706014272,"~/.vimrc"
+|4,39,1,0,1706158838,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1706014272,"~/.vimrc"
--'  1  0  ~/NetrwTreeListing
-|4,39,1,0,1705985138,"~/NetrwTreeListing"
--'  1  0  ~/NetrwTreeListing
-|4,39,1,0,1705985138,"~/NetrwTreeListing"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1705985121,"~/.bashrc"
--'  54  0  ~/NetrwTreeListing
-|4,39,54,0,1705985051,"~/NetrwTreeListing"
--'  26  0  ~/NetrwTreeListing
-|4,39,26,0,1705985051,"~/NetrwTreeListing"
--'  54  0  ~/NetrwTreeListing
-|4,39,54,0,1705985051,"~/NetrwTreeListing"
--'  26  0  ~/NetrwTreeListing
-|4,39,26,0,1705985051,"~/NetrwTreeListing"
--'  1  0  ~/NetrwTreeListing
-|4,39,1,0,1705984948,"~/NetrwTreeListing"
--'  1  0  ~/NetrwTreeListing
-|4,39,1,0,1705984948,"~/NetrwTreeListing"
+|4,39,1,0,1706158838,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1705984722,"~/.vimrc"
+|4,39,1,0,1706158816,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1705984722,"~/.vimrc"
+|4,39,1,0,1706158816,"~/.vimrc"
+-'  9  0  ~/.vimrc
+|4,39,9,0,1706158791,"~/.vimrc"
+-'  9  0  ~/.vimrc
+|4,39,9,0,1706158791,"~/.vimrc"
+-'  9  0  ~/.vimrc
+|4,39,9,0,1706158791,"~/.vimrc"
+-'  9  0  ~/.vimrc
+|4,39,9,0,1706158791,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1705984722,"~/.vimrc"
+|4,39,1,0,1706158775,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1705984722,"~/.vimrc"
--'  1  0  ~/NetrwTreeListing
-|4,39,1,0,1705984699,"~/NetrwTreeListing"
--'  1  0  ~/NetrwTreeListing
-|4,39,1,0,1705984699,"~/NetrwTreeListing"
+|4,39,1,0,1706158775,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1705984631,"~/.vimrc"
+|4,39,1,0,1706158771,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1705984631,"~/.vimrc"
+|4,39,1,0,1706158771,"~/.vimrc"
+-'  9  42  ~/.vimrc
+|4,39,9,42,1706158761,"~/.vimrc"
+-'  9  42  ~/.vimrc
+|4,39,9,42,1706158761,"~/.vimrc"
+-'  9  42  ~/.vimrc
+|4,39,9,42,1706158761,"~/.vimrc"
+-'  9  42  ~/.vimrc
+|4,39,9,42,1706158761,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1706158745,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1705984631,"~/.vimrc"
+|4,39,1,0,1706158716,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1705984631,"~/.vimrc"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
--'  27  0  ~/prog/lua/main.lua
-|4,39,27,0,1705984627,"~/prog/lua/main.lua"
+|4,39,1,0,1706158716,"~/.vimrc"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
+-'  3  0  ~/git/node/perguntas/perguntas.js
+|4,39,3,0,1706158631,"~/git/node/perguntas/perguntas.js"
 
 # Histórico de marcas nos arquivos (mais recente primeiro):
 
 > ~/.vimrc
-	*	1706014938	0
-	"	58	21
-	^	58	22
-	.	58	21
-	+	1	17
-	+	49	0
-	+	1	16
-	+	44	12
-	+	46	0
-	+	1	53
-	+	1	42
+	*	1706159196	0
+	"	69	39
+	^	69	40
+	.	69	39
+	+	19	32
+	+	55	0
+	+	21	0
+	+	22	0
+	+	21	0
+	+	16	9
+	+	18	9
+	+	20	0
+	+	20	22
 	+	1	0
-	+	1	17
-	+	1	25
-	+	42	0
-	+	40	22
-	+	40	24
-	+	40	27
-	+	40	0
-	+	38	11
-	+	24	10
-	+	37	30
-	+	38	0
-	+	7	0
-	+	5	0
-	+	4	0
-	+	1	0
-	+	7	23
-	+	40	0
-	+	7	22
-	+	4	20
-	+	7	19
-	+	4	0
 	+	1	10
-	+	16	45
-	+	19	11
-	+	23	12
-	+	7	0
-	+	3	0
-	+	2	2
 	+	1	0
+	+	1	10
+	+	1	21
+	+	20	0
+	+	1	10
+	+	1	25
+	+	1	11
+	+	1	0
+	+	6	4
+	+	4	0
+	+	21	0
+	+	55	0
+	+	10	4
+	+	6	4
+	+	10	0
+	+	17	0
+	+	6	1
+	+	11	0
+	+	10	0
+	+	6	0
+	+	68	0
+	+	67	12
+	+	68	12
+	+	67	21
+	+	68	21
+	+	67	35
+	+	68	35
+	+	68	0
+	+	67	39
+	+	68	39
+	+	68	0
+	+	71	0
+	+	66	0
+	+	68	26
+	+	67	26
+	+	55	0
+	+	67	35
+	+	68	35
+	+	67	30
+	+	68	30
+	+	55	0
+	+	67	26
+	+	68	26
+	+	55	0
+	+	67	15
+	+	68	15
+	+	55	0
+	+	67	25
+	+	68	25
+	+	55	0
+	+	68	20
+	+	55	0
+	+	68	15
+	+	55	0
+	+	68	19
+	+	67	20
+	+	55	0
+	+	57	14
+	+	57	13
+	+	57	21
+	+	57	0
+	+	55	0
+	+	7	29
+	+	7	19
+	+	10	0
+	+	6	1
+	+	7	1
+	+	7	26
+	+	2	16
 	+	6	0
 	+	7	0
-	+	8	23
+	+	6	0
+	+	7	0
+	+	10	0
+	+	8	22
+	+	11	3
+	+	10	0
+	+	10	84
+	+	9	58
+	+	12	0
+	+	69	0
+	+	68	11
+	+	69	11
+	+	68	22
+	+	69	24
+	+	68	35
+	+	69	35
+	+	68	39
+	+	69	39
+
+> ~/git/node/login/startup.js
+	*	1706158991	0
+	"	2	0
+	.	2	0
 	+	1	0
-	+	9	36
-	+	11	20
-	+	14	27
-	+	18	26
-	+	21	31
-	+	24	0
-	+	37	0
-	+	32	0
-	+	26	14
-	+	27	3
-	+	26	11
-	+	31	13
-	+	25	31
-	+	33	29
-	+	34	13
+	+	31	0
+	+	1	9
+	+	1	14
+	+	1	12
+	+	2	0
+
+> ~/git/node/perguntas/perguntas.js
+	*	1706158631	0
+	"	3	0
+	^	3	12
+	.	3	0
+	+	3	0
+
+> ~/git/labwc/.config/labwc/rc.xml
+	*	1706158596	0
+	"	1	0
+
+> ~/git/pages/main.949191c1dcc9c4a887997048b240354e47152016d821198f89448496ba42e491.css
+	*	1706158101	0
+	"	1	0
+
+> ~/git/pages/css/flag-icons.min.css
+	*	1706158069	0
+	"	1	0
+
+> ~/git/lua/main.lua
+	*	1706157927	0
+	"	44	6
+	.	44	0
+	+	44	0
+
+> ~/git/node/login/creds.json
+	*	1706157607	0
+	"	10	0
+
+> ~/git/lua/readme.md
+	*	1706157576	0
+	"	1	0
+
+> ~/main.lua
+	*	1706157522	0
+	"	1	0
+
+> ~/git/labwc/.config/labwc/menu.xml
+	*	1706157470	0
+	"	47	16
+
+> ~/git/labwc/.config/labwc/autostart
+	*	1706157459	0
+	"	1	0
+
+> ~/git/labwc/.local/share/themes/onedark/openbox-3/themerc
+	*	1706157449	0
+	"	1	0
+
+> ~/git/labwc/README.md
+	*	1706157438	0
+	"	57	0
+	^	20	13
+	.	20	12
+	+	27	57
+	+	28	68
+	+	29	60
+	+	30	67
+	+	41	41
+	+	43	30
+	+	44	36
+	+	45	7
+	+	18	1
+	+	46	33
+	+	47	34
+	+	48	3
+	+	37	38
+	+	42	28
+	+	48	64
+	+	38	36
+	+	39	35
+	+	49	52
+	+	20	9
+	+	50	56
+	+	49	3
+	+	50	3
+	+	49	24
+	+	50	23
+	+	51	8
+	+	52	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	51	8
+	+	52	8
+	+	53	8
+	+	54	9
+	+	55	9
+	+	51	36
+	+	52	33
+	+	53	33
+	+	54	33
+	+	55	33
+	+	57	51
+	+	55	34
+	+	57	46
+	+	57	0
+	+	55	35
+	+	59	23
+	+	65	9
+	+	60	5
+	+	61	4
+	+	72	9
+	+	62	5
+	+	61	4
+	+	74	0
+	+	76	11
+	+	10	17
+	+	11	48
+	+	36	0
+	+	73	4
+	+	68	75
+	+	67	67
+	+	67	2
+	+	66	13
+	+	65	2
+	+	64	10
+	+	62	2
+	+	61	8
+	+	62	9
+	+	64	12
+	+	65	13
+	+	66	15
+	+	67	9
+	+	70	2
+	+	72	11
+	+	73	2
+	+	70	15
+	+	72	13
+	+	73	8
+	+	61	2
+	+	60	9
+	+	61	14
+	+	60	57
+	+	61	55
+	+	62	56
+	+	64	62
+	+	65	64
+	+	66	68
+	+	70	69
+	+	63	55
+	+	74	5
+	+	67	0
+	+	72	0
+	+	61	0
+	+	71	61
+	+	72	0
+	+	69	52
+	+	72	55
+	+	73	45
+	+	74	0
+	+	18	23
+	+	19	10
+	+	20	12
+
+> ~/.vscode-oss/extensions/extensions.json
+	*	1706157407	0
+	"	1	0
+
+> ~/.vscode-oss/argv.json
+	*	1706157403	0
+	"	15	0
+
+> ~/index.html
+	*	1706157118	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	6
+	+	2	0
+	+	1	6
+	+	1	0
+
+> ~/git/lua/creds.lua
+	*	1706156864	0
+	"	36	0
+
+> ~/git/node/figlet/main.js
+	*	1706156661	0
+	"	17	0
+
+> ~/NetrwTreeListing
+	*	1706156646	0
+	"	31	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/plugged/vim-airline/doc/airline.txt
+	*	1706153122	0
+	"	166	0
+
+> ~/.emacs.d/init.el
+	*	1706150604	0
+	"	4	0
+	.	5	0
+	+	5	0
+
+> ~/.emacs.d/config.org
+	*	1706150220	0
+	"	9	47
+	^	9	48
+	.	9	47
+	+	9	47
+
+> ~/teste/index.html
+	*	1706130509	0
+	"	8	14
+	^	8	15
+	.	15	11
 	+	37	0
 	+	35	0
-	+	49	15
-	+	50	12
-	+	49	33
-	+	50	24
-	+	49	23
-	+	44	23
-	+	51	12
-	+	53	12
-	+	51	26
-	+	53	26
-	+	54	0
-	+	53	12
-	+	54	12
-	+	53	28
-	+	54	28
-	+	48	18
-	+	36	36
-	+	48	2
-	+	10	0
-	+	56	0
-	+	55	12
-	+	56	12
-	+	55	21
-	+	56	21
-	+	55	10
-	+	59	0
-	+	52	0
-	+	57	12
-	+	58	12
-	+	57	21
-	+	58	21
+	+	1	6
+	+	18	6
+	+	7	6
+	+	2	3
+	+	3	3
+	+	6	3
+	+	7	4
+	+	3	32
+	+	4	19
+	+	7	13
+	+	10	8
+	+	11	13
+	+	8	20
+	+	12	34
+	+	14	16
+	+	15	11
+
+> ~/git/lua/pass.lua
+	*	1706126853	0
+	"	2	12
+	^	2	13
+	.	3	2
+	+	2	13
+	+	3	2
+
+> ~/groff/ms/currículo/currículo.ms
+	*	1706108674	0
+	"	30	4
+	^	30	5
+	.	30	4
+	+	34	0
+	+	1	0
+	+	4	0
+	+	3	1
+	+	2	9
+	+	12	8
+	+	5	4
+	+	7	4
+	+	10	4
+	+	12	4
+	+	13	15
+	+	23	18
+	+	25	39
+	+	33	34
+	+	20	4
+	+	23	0
+	+	31	0
+	+	30	4
+
+> ~/.local/bin/pdf
+	*	1706107823	0
+	"	1	0
+
+> ~/.bashrc
+	*	1706107803	0
+	"	1	0
+	.	13	0
+	+	1	0
+	+	9	55
+	+	10	55
+	+	1	0
+	+	8	11
+	+	13	0
+
+> ~/groff/ms/currículo/macro
+	*	1706107720	0
+	"	1	0
+	.	1	0
+	+	1	1
+	+	1	7
+	+	1	0
+
+> ~/groff/ms/currículo/currículo
+	*	1706107475	0
+	"	6	2
+	^	6	3
+	.	6	2
+	+	1	8
+	+	6	2
+
+> /media/filmes/subs.srt
+	*	1706051509	0
+	"	10	0
+
+> ~/git/pages-src/content/posts/codeberg.md
+	*	1706027187	0
+	"	48	20
+	^	48	21
+	.	48	20
+	+	6	0
+	+	7	11
+	+	16	69
+	+	17	80
+	+	26	59
+	+	28	77
+	+	30	71
+	+	31	2
+	+	30	0
+	+	31	0
+	+	30	2
+	+	30	0
+	+	30	1
+	+	31	1
+	+	30	1
+	+	30	0
+	+	32	33
+	+	31	8
+	+	29	0
+	+	35	77
+	+	39	30
+	+	26	4
+	+	36	0
+	+	43	82
+	+	48	20
+
+> /mnt/setup/instalar.sh
+	*	1706024378	0
+	"	14	16
+	^	14	17
+	.	14	16
+	+	13	72
+	+	14	16
+
+> ~/.config/labwc/rc.xml
+	*	1706023375	0
+	"	142	0
+	^	144	37
+	.	144	36
+	+	161	20
+	+	159	20
+	+	23	19
+	+	181	55
+	+	196	131
+	+	201	115
+	+	201	203
+	+	201	117
+	+	201	118
+	+	201	159
+	+	201	158
+	+	201	115
+	+	201	116
+	+	201	0
+	+	161	23
+	+	144	36
+
+> ~/git/vim/.vimrc
+	*	1706020799	0
+	"	52	12
+	^	52	13
+	.	52	12
+	+	1	0
+	+	45	0
+	+	51	13
+	+	52	12
+
+> ~/git/pages-src/hugo.toml
+	*	1706020605	0
+	"	19	0
 
 > ~/prog/lua/readme.md
 	*	1706014770	0
@@ -564,21 +998,6 @@ $
 	+	60	2
 	+	60	16
 	+	60	0
-
-> ~/.bashrc
-	*	1705985127	0
-	"	22	0
-	^	9	56
-	.	9	55
-	+	1	0
-	+	8	55
-	+	9	55
-
-> ~/NetrwTreeListing
-	*	1705985050	0
-	"	26	0
-	.	1	0
-	+	1	0
 
 > ~/prog/node/login/login.js
 	*	1705984980	0
@@ -609,13 +1028,6 @@ $
 	"	22	0
 	.	18	0
 	+	18	0
-
-> /mnt/setup/instalar.sh
-	*	1705978250	0
-	"	13	72
-	^	13	73
-	.	13	72
-	+	13	72
 
 > ~/.config/mpv/scripts/zenity-open-files.lua
 	*	1705977229	0
@@ -665,28 +1077,6 @@ $
 	+	8	3
 	+	7	26
 	+	8	4
-
-> ~/.config/labwc/rc.xml
-	*	1705952171	0
-	"	144	36
-	^	144	37
-	.	144	36
-	+	161	20
-	+	159	20
-	+	23	19
-	+	181	55
-	+	196	131
-	+	201	115
-	+	201	203
-	+	201	117
-	+	201	118
-	+	201	159
-	+	201	158
-	+	201	115
-	+	201	116
-	+	201	0
-	+	161	23
-	+	144	36
 
 > ~/new-site/content/posts/minha-nova-tv.md
 	*	1705941888	0
@@ -1231,13 +1621,6 @@ $
 	+	20	17
 	+	30	0
 
-> ~/teste/index.html
-	*	1705897522	0
-	"	1	0
-	.	18	0
-	+	20	0
-	+	18	0
-
 > ~/prog/node/index.html
 	*	1705896387	0
 	"	4	7
@@ -1251,10 +1634,6 @@ $
 > ~/.local/bin/up
 	*	1705893397	0
 	"	3	8
-
-> ~/.local/bin/pdf
-	*	1705893237	0
-	"	1	0
 
 > ~/teste.ms
 	*	1705892845	0
@@ -1400,306 +1779,3 @@ $
 	.	10	25
 	+	8	25
 	+	10	25
-
-> ~/.config/labwc/autostart
-	*	1705467951	0
-	"	2	0
-	.	3	0
-	+	3	0
-
-> ~/.config/mimeapps.list
-	*	1705447655	0
-	"	6	0
-	^	6	24
-	.	6	23
-	+	5	13
-	+	6	23
-
-> ~/.config/lite-xl/.lite_temp_008a3c2f000001.html
-	*	1705447397	0
-	"	16	0
-
-> ~/.config/lite-xl/plugins/pdfview.lua
-	*	1705438492	0
-	"	9	21
-	^	23	35
-	.	9	0
-	+	9	36
-	+	17	0
-	+	23	0
-	+	9	0
-
-> ~/.config/lite-xl/.lite_temp_00019604000002.html
-	*	1705375597	0
-	"	1	0
-
-> ~/.config/lite-xl/.lite_temp_00019604000001.html
-	*	1705375579	0
-	"	1	0
-
-> ~/.local/bin/dufs
-	*	1705367642	0
-	"	2	68
-	^	2	69
-	.	2	68
-	+	2	68
-
-> ~/.config/labwc/menu.xml
-	*	1705367122	0
-	"	8	22
-	^	8	23
-	.	8	22
-	+	20	22
-	+	18	17
-	+	20	20
-	+	18	22
-	+	10	32
-	+	10	55
-	+	8	22
-
-> ~/.local/share/themes/greenbox/openbox-3/themerc
-	*	1705366846	0
-	"	1	0
-	^	38	39
-	.	38	38
-	+	4	36
-	+	5	34
-	+	6	22
-	+	5	31
-	+	6	27
-	+	8	29
-	+	4	36
-	+	9	38
-	+	11	28
-	+	13	29
-	+	14	27
-	+	18	20
-	+	19	30
-	+	20	28
-	+	21	32
-	+	20	28
-	+	34	38
-	+	35	36
-	+	27	50
-	+	37	40
-	+	38	39
-	+	1	0
-	+	28	52
-	+	37	40
-	+	38	38
-	+	4	36
-	+	5	34
-	+	6	27
-	+	5	34
-	+	8	29
-	+	9	38
-	+	11	28
-	+	13	29
-	+	14	27
-	+	18	20
-	+	19	30
-	+	20	28
-	+	21	32
-	+	27	50
-	+	28	52
-	+	34	38
-	+	35	36
-	+	34	38
-	+	38	38
-
-> ~/.config/mako/config
-	*	1705366723	0
-	"	5	19
-	^	5	20
-	.	5	19
-	+	3	23
-	+	4	17
-	+	5	19
-	+	3	23
-	+	4	17
-	+	5	19
-
-> ~/img/docker-compose.yaml
-	*	1705366163	0
-	"	12	20
-	^	12	21
-	.	12	20
-	+	12	20
-
-> /run/user/1000/gvfs/mtp:host=Xiaomi_POCO_M4_Pro_RW85ZPAYSOGQBIPZ/Divisão interna de armazenamento/Documents/Backup/Weeb.m3u8
-	*	1705353774	0
-	"	267	0
-	.	3	0
-	+	3	0
-
-> /run/user/1000/gvfs/mtp:host=Xiaomi_POCO_M4_Pro_RW85ZPAYSOGQBIPZ/Divisão interna de armazenamento/Documents/Backup/Se meche k7.m3u8
-	*	1705353752	0
-	"	101	0
-	.	3	0
-	+	3	0
-
-> /run/user/1000/gvfs/mtp:host=Xiaomi_POCO_M4_Pro_RW85ZPAYSOGQBIPZ/Divisão interna de armazenamento/Documents/Backup/Forza.m3u8
-	*	1705353717	0
-	"	87	0
-	^	51	42
-	.	3	0
-	+	3	0
-	+	51	40
-	+	3	0
-
-> ~/.xinitrc
-	*	1705341974	0
-	"	4	13
-	^	4	14
-	.	4	13
-	+	5	2
-	+	4	13
-
-> ~/.vim/colors/onedark.vim
-	*	1705333273	0
-	"	9	0
-	^	3907	189
-	.	3941	338
-	+	1	16
-	+	3941	338
-
-> ~/.vim/colors/ghdark.vim
-	*	1705333234	0
-	"	18	0
-	^	650	29
-	.	650	28
-	+	650	28
-
-> ~/git/dwl/config.h
-	*	1705331950	0
-	"	54	20
-	^	54	22
-	.	54	21
-	+	9	45
-	+	54	21
-	+	103	31
-	+	129	26
-	+	122	17
-	+	129	30
-	+	131	19
-	+	129	27
-	+	122	9
-	+	103	31
-	+	9	45
-	+	54	21
-
-> ~/git/dwl/config.def.h
-	*	1705331629	0
-	"	126	0
-
-> ~/teste
-	*	1705257660	0
-	"	4	34
-	^	4	35
-	.	20	3
-	+	20	3
-
-> /etc/gitea/app.ini
-	*	1705248888	0
-	"	1	0
-
-> /media/git/gitea/gitea/conf/app.ini
-	*	1705248465	0
-	"	17	22
-	^	17	23
-
-> /media/git/docker-compose.yml
-	*	1705248339	0
-	"	27	17
-	^	27	18
-	.	27	17
-	+	28	15
-	+	9	28
-	+	18	37
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	15	1
-	+	16	3
-	+	17	5
-	+	18	1
-	+	43	0
-	+	42	0
-	+	41	0
-	+	40	0
-	+	39	0
-	+	38	0
-	+	37	0
-	+	36	0
-	+	35	0
-	+	34	0
-	+	33	0
-	+	32	0
-	+	31	0
-	+	30	0
-	+	29	0
-	+	32	0
-	+	27	17
-
-> ~/.bash_profile
-	*	1705157375	0
-	"	9	4
-	^	9	5
-	.	9	4
-	+	8	11
-	+	10	0
-	+	8	0
-	+	10	0
-	+	9	4
-
-> ~/.config/rofi/config.rasi
-	*	1705155396	0
-	"	4	14
-	^	4	15
-	.	4	14
-	+	4	14
-
-> ~/.config/rofi/themes/ondedark.rasi
-	*	1705155333	0
-	"	95	0
-	^	95	1
-	.	95	0
-	+	95	0
-
-> ~/.config/rofi/themes/greenbox.rasi
-	*	1705155324	0
-	"	5	13
-	^	5	14
-	.	5	0
-	+	5	19
-	+	6	19
-	+	7	19
-	+	6	374
-	+	6	19
-	+	7	19
-	+	9	23
-	+	7	19
-	+	9	25
-	+	5	0
-
-> ~/.local/bin/vs
-	*	1705154386	0
-	"	3	25
-	^	3	26
-	.	3	25
-	+	2	30
-	+	3	25
-
-> /media/jellyfin/jelly
-	*	1704846495	0
-	"	4	16
-	^	4	17
-	.	4	16
-	+	6	11
-	+	7	11
-	+	8	33
-	+	4	11
-	+	6	28
-	+	7	26
-	+	4	16

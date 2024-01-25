@@ -6,7 +6,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ervandew/supertab'
 Plug 'sheerun/vim-polyglot'
 Plug 'ap/vim-css-color'
-Plug 'prettier/vim-prettier', { 'do': 'npm install --force --frozen-lockfile --production' }
 call plug#end()
 
 " aparência "

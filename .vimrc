@@ -38,8 +38,6 @@ let g:bufferline_echo = 0
     \ let &statusline='%{bufferline#refresh_status()}'
       \ .bufferline#get_status_string()
 
-
-
 " auto-completar código "
 set omnifunc=syntaxcomplete#Complete
 function! s:on_lsp_buffer_enabled() abort
@@ -49,7 +47,6 @@ augroup lsp_install
     au!
     autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
-
 
 " suporte para mouse "
 set mouse=a

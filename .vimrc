@@ -2,9 +2,7 @@
 call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'ervandew/supertab'
 Plug 'sheerun/vim-polyglot'
-Plug 'ap/vim-css-color'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 
@@ -82,8 +80,6 @@ nnoremap <a-e> <Esc>:Lex<cr>
 " abas "
 inoremap <c-t> <Esc>:tabnew<cr> 
 nnoremap <c-t> <Esc>:tabnew<cr>
-nnoremap <c-c> <Esc>:tabclose<cr>
-inoremap <c-c> <Esc>:tabclose<cr> 
 
 " terminal "
 inoremap <a-t> <Esc>:terminal<cr><c-w>j<c-w>r30<c-w>_<c-w>j
@@ -107,9 +103,9 @@ nnoremap <a-k> <c-w>k
 inoremap <a-l> <c-w>l
 nnoremap <a-l> <c-w>l
 
-" previsão de sintaxe  "
-inoremap <a-p> <Esc>i<c-x><c-o>
-nnoremap <a-p> <Esc>i<c-x><c-o>
+" autocompletar "
+inoremap <Tab> <Esc>i<c-x><c-o>
+nnoremap <Tab> <Esc>i<c-x><c-o>
 
 " instalar plugins "
 nnoremap <c-s-p> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr>

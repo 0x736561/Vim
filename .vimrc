@@ -5,6 +5,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
+Plug 'bling/vim-bufferline'
 
 " paletas de cores "
 Plug 'joshdick/onedark.vim'
@@ -32,6 +33,12 @@ set wildignore+=blue.vim,darkblue.vim,default.vim,delek.vim,desert.vim,
 
 " airline "
 let g:airline_powerline_fonts = 1
+let g:bufferline_echo = 0
+  autocmd VimEnter *
+    \ let &statusline='%{bufferline#refresh_status()}'
+      \ .bufferline#get_status_string()
+
+
 
 " auto-completar código "
 set omnifunc=syntaxcomplete#Complete
@@ -82,9 +89,13 @@ let g:netrw_winsize = 20
 inoremap <a-e> <Esc>:Lex<cr> 
 nnoremap <a-e> <Esc>:Lex<cr>
 
-" abas "
-inoremap <c-t> <Esc>:tabnew<cr> 
-nnoremap <c-t> <Esc>:tabnew<cr>
+" buffers "
+inoremap <a-.> <Esc>:bn<cr> 
+nnoremap <a-.> <Esc>:bn<cr>
+inoremap <a-,> <Esc>:bp<cr> 
+nnoremap <a-,> <Esc>:bp<cr>
+nnoremap <a-d> <Esc>:bdel<cr>
+inoremap <a-d> <Esc>:bdel<cr> 
 
 " terminal "
 inoremap <a-t> <Esc>:terminal<cr><c-w>j<c-w>r30<c-w>_<c-w>j
@@ -112,12 +123,12 @@ nnoremap <a-l> <c-w>l
 inoremap <Tab> <Esc>i<c-x><c-o>
 nnoremap <Tab> <Esc>i<c-x><c-o>
 
-" instalar plugins "
-nnoremap <c-s-p> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr>
-inoremap <c-s-p> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr>
+" recarregar config "
+nnoremap <a-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q<cr>
+inoremap <a-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q<cr>
 
-" atalhos mais naturais "
-nnoremap <c-q> <Esc>:q<cr>
-inoremap <c-q> <Esc>:q<cr> 
-nnoremap <c-s> <Esc>:w<cr>
-inoremap <c-s> <Esc>:w<cr>
+" etc "
+nnoremap <a-q> <Esc>:wincmd q<cr>
+inoremap <a-q> <Esc>:wincmd q<cr> 
+nnoremap <a-s> <Esc>:w<cr>
+inoremap <a-s> <Esc>:w<cr>

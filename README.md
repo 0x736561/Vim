@@ -7,3 +7,5 @@ Tenho várias teclas de atalho configuradas para me ajudarem no meu workflow,
 futuramente irei lista-las aqui. Nessa configuração também tem muitas
 colorschemes, sinta-se livre para experimenta-las.
 
+# Na primeira vez que executar o Vim, digite :PlugInstall
+

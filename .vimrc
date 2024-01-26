@@ -5,6 +5,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ervandew/supertab'
 Plug 'sheerun/vim-polyglot'
 Plug 'ap/vim-css-color'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
 
 " paletas de cores "
 Plug 'joshdick/onedark.vim'
@@ -30,6 +32,14 @@ let g:airline_powerline_fonts = 1
 
 " auto-completar código "
 set omnifunc=syntaxcomplete#Complete
+function! s:on_lsp_buffer_enabled() abort
+    setlocal omnifunc=lsp#complete
+endfunction
+augroup lsp_install
+    au!
+    autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
+augroup END
+
 
 " suporte para mouse "
 set mouse=a

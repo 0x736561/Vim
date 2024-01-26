@@ -1,3 +1,9 @@
-# VIM
+# Minhas dotfiles do Vim
+Nesse repositório está guardada a minha configuração do Vim.  
+Eu não tenho uma configuração muito complexa, mas ela tem suas
+particularidades.
 
-Minhas dotfiles do VIM
+Tenho várias teclas de atalho configuradas para me ajudarem no meu workflow,
+futuramente irei lista-las aqui. Nessa configuração também tem muitas
+colorschemes, sinta-se livre para experimenta-las.
+

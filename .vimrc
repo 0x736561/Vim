@@ -121,8 +121,8 @@ inoremap <Tab> <Esc>i<c-x><c-o>
 nnoremap <Tab> <Esc>i<c-x><c-o>
 
 " recarregar config "
-nnoremap <a-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q<cr>
-inoremap <a-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q<cr>
+nnoremap <a-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q
+inoremap <a-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q
 
 " etc "
 nnoremap <a-q> <Esc>:wincmd q<cr>

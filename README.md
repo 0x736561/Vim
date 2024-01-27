@@ -13,21 +13,15 @@ As teclas de atalho que eu adicionei muito provavelmente são um crime contra a
 humanidade e com toda certeza são uma ofensa maior do que ser broxa aos 12 para
 a comunidade do Vim, __mas__, ainda assim eu as fiz.
 
-Todas (com excessão de uma) usam a tecla Alt como modificador, eu não sei se o
-vim usa essa tecla pra alguma coisa, mas eu decidi usar ela, afinal o Ctrl é
-usado por várias teclas de atalho padrão.
+Todas (com excessão de uma) usam a tecla Ctrl como modificador.
+(eu sei que isso pode gerar algum conflito, fiz isso por conta da minha config
+do [tmux](https://codeberg.org/tukain/tmux))
 
-- Alt-f ........... Procurar arquivos (fzf)
-- Alt-q ........... Fechar janela
-- Alt-d ........... Fechar buffer
-- Alt-, ........... Buffer esquerdo
-- Alt-. ........... Buffer direito
-- Alt-s ........... Salvar
-- Alt-t ........... Abre um terminal
-- Alt-x ........... Fecha o terminal
-- Alt-v ........... Split vertical
-- Alt-b ........... Split horizontal
-- Alt-r ........... Recarregar configuração
-- Alt-h/j/k/l ..... Alterna entre as janelas
+- Ctrl-f ........... Procurar arquivos (fzf)
+- Ctrl-q ........... Fechar janela
+- Ctrl-x ........... Fechar buffer
+- Ctrl-s ........... Salvar
+- Ctrl-r ........... Recarregar configuração
+- Ctrl-h/j/k/l ..... Alterna entre as janelas
 - Tab ............. Autocompletar
 

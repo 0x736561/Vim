@@ -6,6 +6,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'bling/vim-bufferline'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 
 " paletas de cores "
 Plug 'joshdick/onedark.vim'
@@ -73,18 +75,7 @@ set autoindent
 " show pares de (), {} e [] "
 set showmatch
 
-" configurando explorador de arquivos "
-let g:netrw_banner = 0
-let g:netrw_liststyle = 3
-let g:netrw_browse_split = 4
-let g:netrw_altv = 1
-let g:netrw_winsize = 20
-
 " teclas de atalho "
-
-" gerenciador de arquivos  "
-inoremap <a-e> <Esc>:Lex<cr> 
-nnoremap <a-e> <Esc>:Lex<cr>
 
 " buffers "
 inoremap <a-.> <Esc>:bn<cr> 
@@ -119,6 +110,10 @@ nnoremap <a-l> <c-w>l
 " autocompletar "
 inoremap <Tab> <Esc>i<c-x><c-o>
 nnoremap <Tab> <Esc>i<c-x><c-o>
+
+" FuzzyFinder "
+inoremap <a-f> <Esc>:Files<cr>
+nnoremap <a-f> <Esc>:Files<cr>
 
 " recarregar config "
 nnoremap <a-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q

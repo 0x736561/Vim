@@ -17,7 +17,7 @@ Todas (com excessão de uma) usam a tecla Alt como modificador, eu não sei se o
 vim usa essa tecla pra alguma coisa, mas eu decidi usar ela, afinal o Ctrl é
 usado por várias teclas de atalho padrão.
 
-- Alt-e ........... Árvore de arquivos
+- Alt-f ........... Procurar arquivos (fzf)
 - Alt-q ........... Fechar janela
 - Alt-d ........... Fechar buffer
 - Alt-, ........... Buffer esquerdo

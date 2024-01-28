@@ -24,7 +24,7 @@ Plug 'dracula/vim'
 call plug#end()
 
 " aparência "
-colorscheme onedark
+colorscheme dracula
 set termguicolors
 syntax enable
 set number

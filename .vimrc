@@ -8,17 +8,12 @@ Plug 'mattn/vim-lsp-settings'
 Plug 'bling/vim-bufferline'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
-Plug 'christoomey/vim-tmux-navigator'
 
 " paletas de cores "
 Plug 'joshdick/onedark.vim'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
-Plug 'cormacrelf/vim-colors-github'
-Plug 'srcery-colors/srcery-vim'
 Plug 'sainnhe/vim-color-forest-night'
 Plug 'morhetz/gruvbox'
-Plug 'whatyouhide/vim-gotham'
-Plug 'ghifarit53/tokyonight-vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'dracula/vim'
 call plug#end()
@@ -79,25 +74,48 @@ set showmatch
 " teclas de atalho "
 
 " buffers "
-nnoremap <c-x> <Esc>:bdel<cr>
-inoremap <c-x> <Esc>:bdel<cr> 
+inoremap <a-.> <Esc>:bn<cr>
+nnoremap <a-.> <Esc>:bn<cr>
+inoremap <a-,> <Esc>:bp<cr>
+nnoremap <a-,> <Esc>:bp<cr>
+nnoremap <a-d> <Esc>:bdel<cr>
+inoremap <a-d> <Esc>:bdel<cr>
 
-" autocompletar "
-inoremap <Tab> <Esc>i<c-x><c-o>
-nnoremap <Tab> <Esc>i<c-x><c-o>
+" terminal "
+inoremap <a-t> <Esc>:terminal<cr><c-w>j<c-w>r20<c-w>_<c-w>j
+nnoremap <a-t> <Esc>:terminal<cr><c-w>j<c-w>r20<c-w>_<c-w>j
+inoremap <a-x> <c-w>jexit<cr>
+nnoremap <a-x> <c-w>jexit<cr>
+
+" splits  "
+inoremap <a-v> <Esc>:vs<cr>
+nnoremap <a-v> <Esc>:vs<cr>
+inoremap <a-m> <Esc>:sp<cr>
+nnoremap <a-m> <Esc>:sp<cr>
+
+" movimentação entre janelas "
+inoremap <a-h> <c-w>h
+nnoremap <a-h> <c-w>h
+inoremap <a-j> <c-w>j
+nnoremap <a-j> <c-w>j
+inoremap <a-k> <c-w>k
+nnoremap <a-k> <c-w>k
+inoremap <a-l> <c-w>l
+nnoremap <a-l> <c-w>l
 
 " FuzzyFinder "
-inoremap <c-f> <Esc>:Files<cr>
-nnoremap <c-f> <Esc>:Files<cr>
-inoremap <c-b> <Esc>:Buffers<cr>
-nnoremap <c-b> <Esc>:Buffers<cr>
+inoremap <a-f> <Esc>:Files<cr>
+nnoremap <a-f> <Esc>:Files<cr>
+inoremap <a-b> <Esc>:Buffers<cr>
+nnoremap <a-b> <Esc>:Buffers<cr>
 
 " recarregar config "
-nnoremap <c-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q
-inoremap <c-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q
+nnoremap <a-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q
+inoremap <a-r> <Esc>:so ~/.vimrc<cr><Esc>:PlugInstall<cr><Esc>:q
 
 " etc "
-nnoremap <c-q> <Esc>:wincmd q<cr>
-inoremap <c-q> <Esc>:wincmd q<cr> 
-nnoremap <c-s> <Esc>:w<cr>
-inoremap <c-s> <Esc>:w<cr>
+nnoremap <a-q> <Esc>:wincmd q<cr>
+inoremap <a-q> <Esc>:wincmd q<cr>
+nnoremap <a-s> <Esc>:w<cr>
+inoremap <a-s> <Esc>:w<cr>
+

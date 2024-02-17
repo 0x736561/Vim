@@ -1,6 +1,5 @@
 # Minhas dotfiles do Vim
  
-Nesse repositório está guardada a minha configuração do Vim.  
 Eu não tenho uma configuração muito complexa, mas ela tem suas
 particularidades.
 

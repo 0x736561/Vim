@@ -1,4 +1,5 @@
-colorscheme dracula
+source $XDG_CONFIG_HOME/vim/config/color.vimrc
+set background=dark
 set termguicolors
 syntax enable
 set number
